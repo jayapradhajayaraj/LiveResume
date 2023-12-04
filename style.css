@@ -1,0 +1,218 @@
+
+body{
+    overflow: visible;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #31352E;
+    background-color: #EBEBE8;
+
+}
+.page1 {grid-area: page1;}
+.page2left{grid-area: page2left;}
+.page2right{grid-area: page2right;}
+.page3left{grid-area: page3left;}
+.page3right{grid-area: page3right;}
+.page4left{grid-area: page4left;}
+.page4right{grid-area: page4right;}
+.page5{grid-area: page5;}
+.footer{grid-area: footer;}
+
+
+.grid-container{
+    display: grid;
+    grid-template-areas:'page1 page1 page1 page1 page1 page1'
+    'page2left page2left page2right page2right page2right page2right'
+    'page3left page3left page3right page3right page3right page3right'
+    'page4left page4left page4right page4right page4right page4right'
+    'page5 page5 page5 page5 page5 page5'
+    'footer footer footer footer footer footer';
+    gap:10px;
+    background-color:#EBEBE8;
+    padding: 40px;
+    width: 100vw;
+    height: 100vh;
+}
+.page1{
+    width: 100vw;
+    height: 400px;
+    background-size: cover;
+    position: relative;
+}
+#coverimg{
+    width: 100vw;
+    height: 400px;
+    padding: 20px;
+    position:absolute;
+    object-fit: cover;
+}
+#name{
+    position: absolute;
+    color: #31352E;
+    top:8rem;
+    left: 30rem;
+    font-family: 'Cinzel Decorative', serif;
+    font-size: 50px;
+    mix-blend-mode: overlay;
+    font-weight: 100 solid;
+}
+
+#tag{
+  font-family: 'Cinzel Decorative', serif;
+  font-size: 20px;
+  mix-blend-mode: overlay;
+}
+
+#profile{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+#title{
+    background-color:#116530;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    left:-20rem;
+    width: 200px;
+    height: 40px;
+    color:#EBEBE8;
+}
+#aboutme-desc{
+    font-family: sans-serif;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right:20px ;
+    left: 20px;
+    text-align: justify;
+}
+.timeline-career{
+    border-right: 3px solid #116530;
+    height: 750px;
+    position: relative;
+}
+.dot{
+    background-color: #719F1E;
+    width: 20px;
+    height: 20px;
+    border-style: double;
+    border-radius: 100%;
+    color: whitesmoke;
+    left: 18rem;
+    position: relative;
+    z-index:1;
+}
+.career1
+{
+    top:-4rem;  
+}
+.year1{
+    top:0.3rem;
+    left: 10.2rem;
+    position: relative;
+}
+.career2
+{
+    top:6.8rem;  
+}
+.year2{
+    top:11rem;
+    left: 10.2rem;
+    position: relative;
+}
+.career3
+{
+    top:29rem;
+}
+.year3{
+    top:33rem;
+    left: 10.2rem;
+    position: relative;
+}
+
+#job-title{
+    padding-left: 10px;
+}
+#careerdesc{
+    text-align: justify;
+    padding-left: 10px;
+    padding-right:20px ;
+}
+.page4left{
+    background-color: #EBEBE8;
+}
+.page4right{
+    background-color: #EBEBE8;
+}
+#timeline-edu{
+    border-right: 3px solid #116530;
+    height: 200px;
+    position: relative;
+}
+.edudesc{
+    text-align: justify;
+    padding-left: 10px;
+    padding-right:20px ;
+}
+.edu1{
+    top:-1rem;
+}
+.year4{
+    top:2rem;
+    left: 10.2rem;
+    position: relative;
+}
+.edu2{
+    top:4rem;
+}
+.year5{
+    top:6.5rem;
+    left: 10.2rem;
+    position: relative;
+}
+.checked{
+    color: #778A35;
+}
+.pag5title{
+    background-color:#116530;
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    top: 2rem;
+    left: 300px;
+    width: 200px;
+    height: 40px;
+    color:#EBEBE8;
+}
+table{
+    display: table;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+td{
+    text-align: left;
+    padding: 5px;
+}
+.column{
+    float: left;
+    width: 50%;
+}
+#sideheading{
+padding: 5px;
+}
+.coding{
+    font-family: 'Cinzel Decorative', serif;
+    font-weight: normal bold;
+}
+.footer{
+    background-color:#116530;   
+    text-align:center;
+}
+#footerimg{
+    width: 25px;
+    height: 25px;
+    top:5rem;
+    left:5rem;
+    
+}

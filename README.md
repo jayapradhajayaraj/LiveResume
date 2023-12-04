@@ -1,2 +1,0 @@
-# LiveResume
-My Bio Data
